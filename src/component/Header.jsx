@@ -1,5 +1,8 @@
+import { useMediaQuery } from "@material-ui/core";
 import React, { useState } from "react";
+import Media from "react-media";
 import { Link } from "react-router-dom";
+import Mobile from "./Mobile"
 
 
 
@@ -7,7 +10,12 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 
-    const [time, setTime] = useState("Loading")
+
+
+
+    const [time, setTime] = useState("Loading");
+   const [toggle, setToggle] = useState(false)
+
 
     function upDate(){
         const updateTime = new Date().toLocaleTimeString();
@@ -15,17 +23,41 @@ const Header = () => {
       }
       setInterval(upDate, 1000);
 
-    
+    function clickToggle(){
+        setToggle(true)
+    }
+
+    function clickToggle1(){
+        setToggle(false)
+    }
+
+ 
+
 
     return (
        <header>
            <nav>
                <img src="\images\logo.png"  alt = "logo" />
-               <ul>
-                  <Link to="/"><li>Home</li></Link> 
-                  <Link to="/about" >  <li>About</li></Link> 
-                  <li  >{time}</li>       
-               </ul>
+             
+              <ul    >
+               
+              <Media query="(max-width:800px)" >
+               {(matches => {
+                return  matches ? <div style={{ display: toggle ? "block " : "none"}} > <Mobile /></div>   : null;
+               })}
+              </Media>
+               
+               <Link className="hid" to="/"><li>Home</li></Link> 
+               <Link className="hid" to="/about" >  <li>About</li></Link> 
+              
+              
+               <li  >{time}</li> 
+               
+            </ul>
+            
+               
+               { toggle ? <img style={{background:"aqua"}}  src="\images\menuclose.png" className="imag" onClick={clickToggle1} /> : <img  src="\images\menu.png" className="imag" onClick={clickToggle}  /> }  
+               
            </nav>
        </header>
     )

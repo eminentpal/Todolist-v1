@@ -4,7 +4,11 @@ import Footer from "./Footer";
 
 
 
+
 const About = () => {
+ 
+
+    
     return(
         
     
@@ -15,6 +19,7 @@ const About = () => {
             <h2 className="empty"></h2>
             <p>Existem muitas variações das passagens do Lorem Ipsum disponíveis, mas a maior parte sofreu alterações de alguma forma, pela injecção de humor, ou de palavras aleatórias que nem sequer parecem suficientemente credíveis. Se vai usar uma passagem do Lorem Ipsum, deve ter a certeza que não contém nada de embaraçoso escondido no meio do texto. </p>
             </div>
+            
             
             <Footer /> 
         </div>

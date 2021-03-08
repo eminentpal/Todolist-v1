@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import List from "./List";
+import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 
 
 
@@ -31,6 +32,15 @@ function deleteItem(id){
   });
 }
 
+const add = {
+    right:"10px",
+    position:"relative",
+    margin:"0",
+    top:"2px",
+    color: "teal",
+}
+
+
     return (
 
         <div>
@@ -54,7 +64,7 @@ function deleteItem(id){
  
    <div  className="todo" >
        <input value={item} onChange={handleChange} name="list" placeholder="Type Your Todo" type="text"  required="required"/>
-       <button onClick={handleClick}  type="submit" >+</button>
+       <button onClick={handleClick}  type="submit" ><AddCircleOutlineIcon style={add} /></button>
    </div>
    
    

@@ -11,6 +11,10 @@ body {
 
 /*--width: 1365px;--*/
 
+.imag{
+    display: none;
+}
+
 .empty::before {
     content: "";
     animation: animate infinite 8s;
@@ -47,7 +51,7 @@ nav {
     height: 100px;
     background-color: aqua;
     margin-left: 400px;
-    margin-top: 150px;
+    margin-top: 90px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
    
@@ -57,8 +61,15 @@ nav ul {
     display: flex;
     text-decoration: none;
     list-style: none;
+    
+    
+   
+
    
 }
+
+
+
 
 ul li:hover {
    color: whitesmoke;
@@ -70,6 +81,12 @@ nav img {
     margin-left: 10px;
 
 }
+
+.imag {
+    
+}
+
+
 ul li {
     margin-left: 45px;
     font-size: 20px;
@@ -77,6 +94,7 @@ ul li {
     color: teal;
     text-decoration: none;
     outline: none;
+    
    
     
 
@@ -107,14 +125,15 @@ a {
 }
 
 .todo button {
-    width: 30px;
-    height: 30px;
+   
     border: 0;
-    border-radius: 20px;
-    color: white;
-    background-color: teal;
+   
+    background: none;
+    
     outline: none;
-    margin-left: 5px;
+    margin-left: 10px;
+   position: relative;
+   top: 5px;
 }
 
 .list ul li{
@@ -255,9 +274,21 @@ footer h4 {
 
     
  }
+ .hid {
+    display: none; 
+
+}
 
 
- 
+.imag {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    top: -4px;
+    right: 10px;
+    
+}
     nav {
         display: flex;
         align-items: center;
@@ -275,6 +306,9 @@ footer h4 {
         display: inline-block;
         text-decoration: none;
         list-style: none;
+        visibility: visible;
+        
+      
        
     }
     
@@ -295,6 +329,8 @@ footer h4 {
         color: teal;
         text-decoration: none;
         outline: none;
+        position: relative;
+        right: 10px;
        
         
     
@@ -330,9 +366,9 @@ footer h4 {
         border: 0;
         border-radius: 20px;
         color: white;
-        background-color: teal;
+        background-color: none;
         outline: none;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     
     .list ul li{
@@ -432,7 +468,7 @@ footer h4 {
     width: 300px;
     height: 240px;
     background: aqua;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 30px;
     text-align: center;
     color: teal;
@@ -467,7 +503,7 @@ footer h4 {
 
 .about footer {
    
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 20px;
    
 }
@@ -494,6 +530,16 @@ footer h4 {
         padding-bottom: 50px;
         padding-top: 40px;
         
+    }
+    .todo button {
+        width: 22px;
+        height: 22px;
+        border: 0;
+        border-radius: 20px;
+        color: white;
+        background-color: none;
+        outline: none;
+        margin-left: 10px;
     }
 
     footer{
@@ -567,6 +613,17 @@ footer h4 {
         padding-bottom: 40px ;
         padding-top: 30px;
         
+    }
+
+    .todo button {
+        width: 22px;
+        height: 22px;
+        border: 0;
+        border-radius: 20px;
+        color: white;
+        background-color: none;
+        outline: none;
+        margin-left: 10px;
     }
 
     footer{
