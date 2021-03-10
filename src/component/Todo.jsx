@@ -6,21 +6,33 @@ import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 
 const Todo = () =>{
 
+    
+
 const [item, setItem]= useState("");
 const [Lists, setLists] = useState(["Pray", "Cook", "Code"]);
 
 
+
 function handleChange (event){
     const newValue = event.target.value;
-
+ 
+    
     setItem (newValue)
 }
 
 function handleClick () {
-    setLists ( prevLists => {
-        return [...prevLists, item]
-    })
-   setItem("")
+
+    if (item == "") {
+        alert("Please type your Todo");
+        return false;
+      }
+      else {
+        setLists ( prevLists => {
+            return [...prevLists, item]
+        })
+       setItem("")
+      }
+    
 }
 
 // for delete
@@ -64,8 +76,10 @@ const add = {
    } */}
  
    <div  className="todo" >
-       <input value={item} onChange={handleChange} name="list" placeholder="Type Your Todo" type="text"  required="required"/>
+ 
+       <input   value={item} onChange={handleChange} name="list" placeholder="Type Your Todo" type="text"  required="required"/>
        <button onClick={handleClick}  type="submit" ><AddCircleOutlineIcon style={add} /></button>
+    
    </div>
    
    

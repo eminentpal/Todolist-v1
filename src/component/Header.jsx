@@ -55,7 +55,7 @@ const Header = () => {
             </ul>
             
                
-               { toggle ? <img   src="\images\menu.png" className="imag" onClick={clickToggle1} /> : <img  src="\images\menu.png" className="imag" onClick={clickToggle}  /> }  
+               { toggle ? <img   src="\images\menu.png" className="imag" onClick={clickToggle1} alt ="" /> : <img  src="\images\menu.png" className="imag" onClick={clickToggle} alt =""  /> }  
                
            </nav>
        </header>
