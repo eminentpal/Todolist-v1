@@ -21,7 +21,7 @@ function handleChange (event){
 
 function handleClick () {
 
-    if (item == "") {
+    if (item === "") {
         alert("Please type your Todo");
         return false;
       }
