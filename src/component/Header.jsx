@@ -1,4 +1,3 @@
-import { useMediaQuery } from "@material-ui/core";
 import React, { useState } from "react";
 import Media from "react-media";
 import { Link } from "react-router-dom";
@@ -56,7 +55,7 @@ const Header = () => {
             </ul>
             
                
-               { toggle ? <img style={{background:"aqua"}}  src="\images\menuclose.png" className="imag" onClick={clickToggle1} /> : <img  src="\images\menu.png" className="imag" onClick={clickToggle}  /> }  
+               { toggle ? <img   src="\images\menu.png" className="imag" onClick={clickToggle1} /> : <img  src="\images\menu.png" className="imag" onClick={clickToggle}  /> }  
                
            </nav>
        </header>

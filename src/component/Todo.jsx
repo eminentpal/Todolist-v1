@@ -6,12 +6,13 @@ import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 
 const Todo = () =>{
 
-const [item, setItem]= useState();
+const [item, setItem]= useState("");
 const [Lists, setLists] = useState(["Pray", "Cook", "Code"]);
 
 
 function handleChange (event){
     const newValue = event.target.value;
+
     setItem (newValue)
 }
 

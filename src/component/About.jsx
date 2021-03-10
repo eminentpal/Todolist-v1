@@ -17,7 +17,7 @@ const About = () => {
             <div className="aboutUs">
             <h1>About TodoList</h1>
             <h2 className="empty"></h2>
-            <p>Existem muitas variações das passagens do Lorem Ipsum disponíveis, mas a maior parte sofreu alterações de alguma forma, pela injecção de humor, ou de palavras aleatórias que nem sequer parecem suficientemente credíveis. Se vai usar uma passagem do Lorem Ipsum, deve ter a certeza que não contém nada de embaraçoso escondido no meio do texto. </p>
+            <p>What is a <b>ToDo List</b>? The definition is a simple one. It’s a list of tasks you need to complete, or things that you want to do.<br/>Most typically, they’re organised in order of priority. Traditionally, they’re written on a piece of paper or post it notes and acts as a memory aid. <br/> As technology has evolved we have been able to develop a todoList app that can help you create your todo list. </p>
             </div>
             
             
