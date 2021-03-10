@@ -63,7 +63,7 @@ const add = {
 
 <div className="todolist2">
 {Lists.map( (item, index) => (
-   <List key={index} id={index} item={item.substring(0,23)} onDelete={deleteItem} />
+   <List key={index} id={index} item={item.substring(0,13)} onDelete={deleteItem} />
      ))}
 
       
