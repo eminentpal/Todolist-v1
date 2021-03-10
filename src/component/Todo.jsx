@@ -15,8 +15,7 @@ const [Lists, setLists] = useState(["Pray", "Cook", "Code"]);
 
 function handleChange (event){
     const newValue = event.target.value;
- 
-    
+
     setItem (newValue)
 }
 
