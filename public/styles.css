@@ -502,12 +502,13 @@ footer h4 {
     
 .imag {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     position: relative;
     top: -4px;
     right: 10px;
     margin-right: 10px;
+    color: teal;
     
 }
 
@@ -533,7 +534,7 @@ footer h4 {
 
     .imag {
         display: inline-block;
-        width: 10px;
+        width: 60px;
         height: 20px;
         position: relative;
         top: -8px;
@@ -541,6 +542,18 @@ footer h4 {
         margin-right: 19px;
         
     }
+
+    nav ul {
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+      
+        
+      
+       
+    }
+
 
     .list ul {
         background-color: rgb(250, 245, 245);
@@ -552,9 +565,9 @@ footer h4 {
     }
 
     .todo input {
-        width: 50.3vw;
+        width: 57.3vw;
        
-        padding: 0;
+        padding: 4px 4px;
         margin-bottom: 10px;
         display: inline-block;
         background-color: rgb(250, 245, 245);
@@ -563,6 +576,7 @@ footer h4 {
         outline: none;
         font-size: 17px;
         margin-top: 15px;
+        
      
     
     }
@@ -607,7 +621,7 @@ footer h4 {
     
 
 .aboutUs {
-    width: 45vw;
+    width: 72.3vw;
     height: 35vh;
     background: aqua;
     margin-left: 60px;
@@ -647,6 +661,7 @@ footer h4 {
    
     margin-left: 60px;
     margin-top: 20px;
+    width: 72.3vw;
    
 }
 

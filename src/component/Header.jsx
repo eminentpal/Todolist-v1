@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Media from "react-media";
 import { Link } from "react-router-dom";
-import Mobile from "./Mobile"
+import Mobile from "./Mobile";
+import FormatAlignLeftIcon from '@material-ui/icons/FormatAlignLeft';
+import FormatAlignRightIcon from '@material-ui/icons/FormatAlignRight';
 
 
 
@@ -54,9 +56,15 @@ const Header = () => {
                
             </ul>
             
+            <Media query="(max-width:700px)" >
+               {(matches => {
+                return  matches ? <div > { toggle ?   <FormatAlignRightIcon className="imag"   onClick={clickToggle1} />   : <FormatAlignLeftIcon className="imag" onClick={clickToggle}  />  }   </div>   : null;
+               })}
+              </Media>
                
-               { toggle ? <img   src="\images\menu.png" className="imag" onClick={clickToggle1} alt ="" /> : <img  src="\images\menu.png" className="imag" onClick={clickToggle} alt =""  /> }  
                
+               
+              
            </nav>
        </header>
     )
