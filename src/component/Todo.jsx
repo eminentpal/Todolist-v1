@@ -4,6 +4,7 @@ import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 
 
 
+
 const Todo = () =>{
 
     
@@ -77,6 +78,7 @@ const add = {
    <div  className="todo" >
  
        <input   value={item} onChange={handleChange} name="list" placeholder="Type Your Todo" type="text"  required="required"/>
+       
        <button onClick={handleClick}  type="submit" ><AddCircleOutlineIcon style={add} /></button>
     
    </div>

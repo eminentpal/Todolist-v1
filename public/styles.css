@@ -525,6 +525,22 @@ footer h4 {
        
     }
 
+    .todo input {
+        width: 86%;
+        
+        padding: 0;
+        margin-bottom: 10px;
+        display: inline-block;
+        background-color: rgb(250, 245, 245);
+        border: 2px solid teal;
+        border-radius: 20px;
+        outline: none;
+        font-size: 17px;
+        margin-top: 15px;
+     
+    
+    }
+
     .todolist {
         margin-left: 57px;
         padding-bottom: 50px;
@@ -620,6 +636,21 @@ footer h4 {
        
     }
 
+    .todo input {
+        width: 86%;
+        
+        padding: 0;
+        margin-bottom: 10px;
+        display: inline-block;
+        background-color: rgb(250, 245, 245);
+        border: 2px solid teal;
+        border-radius: 20px;
+        outline: none;
+        font-size: 17px;
+        margin-top: 15px;
+     
+    
+    }
     .todolist {
         margin-left: 40px;
         padding-bottom: 40px ;
