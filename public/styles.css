@@ -335,7 +335,7 @@ footer h4 {
     .todo input {
         padding: 2px 17px;
         margin-bottom: 10px;
-        display: inline-block;
+        display: block;
         background-color: rgb(250, 245, 245);
         border: 2px solid teal;
         border-radius: 20px;
@@ -522,12 +522,26 @@ footer h4 {
         margin-left: 57px;
         margin-top: 60px;
         margin-bottom: -10px;
-        
+        display: flex;
+        align-items: center;
+        width: 73vw;
+        height: 17vh;
+        background-color: aqua;
+       
        
     }
 
+    .list ul {
+        background-color: rgb(250, 245, 245);
+        border: 2px solid teal;
+        width: 70.3vw;
+        margin-bottom: 0;
+        border-radius: 20px;
+        
+    }
+
     .todo input {
-        width: 86%;
+        width: 50.3vw;
        
         padding: 0;
         margin-bottom: 10px;
@@ -546,8 +560,21 @@ footer h4 {
         margin-left: 57px;
         padding-bottom: 50px;
         padding-top: 40px;
+        width: 73vw;
+        background: aqua;
+        overflow: hidden;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+       position: relative;
+       left: 0px;
+    
+
         
     }
+
+   
     .todo button {
         width: 3%;
         height: 3%;
@@ -562,6 +589,8 @@ footer h4 {
     footer{
         margin-left: 57px;
         margin-top: 50px;
+        width: 73vw;
+        height: 17vh;
     }
     
     
