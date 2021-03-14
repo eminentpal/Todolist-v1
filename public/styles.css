@@ -48,8 +48,8 @@ body {
 nav {
     display: flex;
     align-items: center;
-    width: 565px;
-    height: 100px;
+    width: 41.5vw;
+    height: 15vh;
     background-color: aqua;
     margin-left: 400px;
     margin-top: 90px;
@@ -77,8 +77,8 @@ ul li:hover {
 }
 
 nav img {
-    width: 150px;
-    height: 50px;
+    width: 25%;
+    height: 50%;
     margin-left: 10px;
 
 }
@@ -171,14 +171,14 @@ a {
 .list ul {
     background-color: rgb(250, 245, 245);
     border: 2px solid teal;
-    width: 239px;
+    width: 56%;
     margin-bottom: 0;
     border-radius: 20px;
 }
 
 .todolist {
    
-    width: 565px;
+    width: 41.5vw;
     background: aqua;
     overflow: hidden;
     position: relative;
@@ -186,6 +186,7 @@ a {
     left: 400px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    height: auto;
    
   
     
@@ -203,8 +204,8 @@ a {
 
 
 .aboutUs {
-    width: 565px;
-    height: 240px;
+    width: 41.5vw;
+    height: 35.5vh;
     background: aqua;
     margin-left: 400px;
     margin-top: 30px;
@@ -224,7 +225,7 @@ a {
 
 .aboutUs p{
     text-align: justify;
-    width: 530px;
+    width: 39vw;
     margin-left: 18px;
     font-size: 15px;
     line-height: 1.4;
@@ -241,8 +242,8 @@ a {
 footer {
     color: teal;
     background: aqua;
-    width: 565px;
-    height: 100px;
+    width: 41.5vw;
+    height: 15vh;
     margin-top: 60px;
     margin-left: 399px;
     border-bottom-left-radius: 30px;
@@ -282,8 +283,8 @@ footer h4 {
     nav {
         display: flex;
         align-items: center;
-        width: 300px;
-        height: 100px;
+        width: 60vw;
+        height: 17vh;
         background-color: aqua;
         margin-left: 100px;
         margin-top: 70px;
@@ -307,8 +308,8 @@ footer h4 {
     }
     
     nav img {
-        width: 50px;
-        height: 50px;
+        width: 20%;
+        height: 50%;
         margin-left: 10px;
     
     }
@@ -351,8 +352,8 @@ footer h4 {
     }
     
     .todo button {
-        width: 22px;
-        height: 22px;
+        width: 3%;
+        height: 3%;
         border: 0;
         border-radius: 20px;
         color: white;
@@ -400,14 +401,14 @@ footer h4 {
     .list ul {
         background-color: rgb(250, 245, 245);
         border: 2px solid teal;
-        width: 239px;
+        width: 42.3vw;
         margin-bottom: 0;
         border-radius: 20px;
     }
     
     .todolist {
        
-        width: 300px;
+        width: 60vw;
         background: aqua;
         overflow: hidden;
         margin-left: 100px;
@@ -437,8 +438,8 @@ footer h4 {
     footer {
         color: teal;
         background: aqua;
-        width: 300px;
-        height: 100px;
+        width: 60vw;
+        height: 17vh;
         margin-top: 60px;
         margin-left: 100px;
         border-bottom-left-radius: 30px;
@@ -455,8 +456,8 @@ footer h4 {
     }
     
 .aboutUs {
-    width: 300px;
-    height: 240px;
+    width: 60vw;
+    height: 35vh;
     background: aqua;
     margin-left: 100px;
     margin-top: 30px;
@@ -483,7 +484,7 @@ footer h4 {
 
 .aboutUs p{
     text-align: justify;
-    width: 270px;
+    width: 54vw;
     margin-left: 16px;
     font-size: 12.6px;
     line-height: 1.2;
@@ -527,7 +528,7 @@ footer h4 {
 
     .todo input {
         width: 86%;
-        
+       
         padding: 0;
         margin-bottom: 10px;
         display: inline-block;
@@ -548,8 +549,8 @@ footer h4 {
         
     }
     .todo button {
-        width: 22px;
-        height: 22px;
+        width: 3%;
+        height: 3%;
         border: 0;
         border-radius: 20px;
         color: white;
@@ -566,8 +567,8 @@ footer h4 {
     
 
 .aboutUs {
-    width: 300px;
-    height: 240px;
+    width: 45vw;
+    height: 35vh;
     background: aqua;
     margin-left: 60px;
     margin-top: 40px;
@@ -636,21 +637,6 @@ footer h4 {
        
     }
 
-    .todo input {
-        width: 86%;
-        
-        padding: 0;
-        margin-bottom: 10px;
-        display: inline-block;
-        background-color: rgb(250, 245, 245);
-        border: 2px solid teal;
-        border-radius: 20px;
-        outline: none;
-        font-size: 17px;
-        margin-top: 15px;
-     
-    
-    }
     .todolist {
         margin-left: 40px;
         padding-bottom: 40px ;
