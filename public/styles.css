@@ -531,6 +531,17 @@ footer h4 {
        
     }
 
+    .imag {
+        display: inline-block;
+        width: 10px;
+        height: 20px;
+        position: relative;
+        top: -8px;
+        right: 20px;
+        margin-right: 19px;
+        
+    }
+
     .list ul {
         background-color: rgb(250, 245, 245);
         border: 2px solid teal;
